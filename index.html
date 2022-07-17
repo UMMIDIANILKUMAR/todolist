@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- TITLE -->
+    <div id="title">
+        <h1>MY-DAY-PLANNER</h1>
+    </div>
+    <!-- todo input -->
+    <div id="todoinput">
+        <form>
+
+            <div class="label1">
+                <label id="label1">LIST TO DO'S</label>
+            </div>
+
+            <div class="textinput">
+                <input type="text" id="textinput">
+            </div>
+
+            <div class="additems">
+                <input type="button" value="ADD ITEMS" id="additems" onclick="getdata()" >
+                <input type="button" value="REMOVE ITEMS" id="remove" onclick="removeelem()" >
+            </div>
+
+        </form>
+        <small id="small1"></small>
+        <hr >
+
+    </div>
+    <div id="addedtitle" >
+        <h1>THINGS TO DO</h1>
+    </div>
+    <hr>
+
+    <!-- added list -->
+    <div id="divcenter">
+        <div id="addeditems">
+
+        </div>
+    </div>
+    
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>

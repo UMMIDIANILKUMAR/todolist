@@ -1,0 +1,121 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+   box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    background-color:black;
+    
+
+}
+#title{
+    width:100vw;
+    height:7vh;
+    background-color:antiquewhite;
+    color: black;
+    font-size: 24px;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
+form{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.label1{
+    width:10vw;
+    display:flex;
+    margin-left: 2vw;
+ 
+
+}
+.textinput{
+    width:60vw;
+    margin-right: 2vw;
+ 
+}
+.additems{
+    width:20vw
+
+}
+label{
+    font-size: 23px;
+    margin-left: 2px;
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input[type="text"]{
+    background-color: black;
+    border-color: antiquewhite;
+    color: antiquewhite;
+    font-size: 25px;
+    width: 100%;
+    height: 10vh;
+}
+input[type="button"]{
+    height:5vh;
+    width:20vw;
+    background-color: rgb(45, 45, 45);
+    color: antiquewhite;
+ font-size:25px;
+ cursor:grab;
+}
+hr{
+    margin: 10px 0px;
+}
+#addedtitle{
+    height: 5vh;
+    color: antiquewhite;
+    text-align: center;
+ 
+}
+#divcenter{
+    height:80vh ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#addeditems{
+    
+   
+    width: 50vw;
+    height:75vh ;
+    border: 1px solid rgb(243, 213, 213);
+    overflow-y: scroll;
+    
+   
+}
+.div11{
+height: 50px;
+display: flex;
+justify-content: space-between;
+
+
+}
+.btn{
+    
+    background-color: brown;
+    color: black;
+    height:50px;
+    
+
+}
+.div1111{
+    text-decoration: line-through;
+}
+h1{
+   
+}
+
+#small1{
+    color:red;
+display: flex;
+justify-content: center;
+}
